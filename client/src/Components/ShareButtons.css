@@ -1,0 +1,62 @@
+.share-buttons-container {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .share-buttons-container.dark {
+    background-color: #2a2a2a;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(255,255,255,0.1);
+  }
+  
+  .share-title {
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .dark .share-title {
+    color: #ffffff;
+  }
+  
+  .social-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .social-buttons button {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .social-buttons button:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+    .share-buttons-container {
+      padding: 12px;
+    }
+    
+    .social-buttons {
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .share-title {
+      font-size: 14px;
+    }
+    
+    .social-buttons button svg {
+      width: 28px !important;
+      height: 28px !important;
+    }
+  }

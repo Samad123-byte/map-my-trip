@@ -1,0 +1,334 @@
+/* Enhanced darkMode.css with more comprehensive styling */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Header */
+body.dark-mode .header {
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+body.dark-mode .nav-link {
+  color: #e0e0e0;
+}
+
+body.dark-mode .nav-link:hover {
+  color: #4dabf7;
+}
+
+body.dark-mode .logo {
+  color: #ffffff;
+}
+
+/* About Page */
+body.dark-mode .about-container,
+body.dark-mode .destination-card,
+body.dark-mode .booking-page-container,
+body.dark-mode .contact-container,
+body.dark-mode .destination-detail-container {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .about-hero::before {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode .about-section h2,
+body.dark-mode .values-section h2,
+body.dark-mode .team-section h2,
+body.dark-mode .testimonials-section h2 {
+  color: #ffffff;
+}
+
+body.dark-mode .about-text p {
+  color: #b0b0b0;
+}
+
+body.dark-mode .value-card,
+body.dark-mode .team-member,
+body.dark-mode .testimonial-card {
+  background-color: #1e1e1e;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .value-card h3,
+body.dark-mode .team-member h3 {
+  color: #ffffff;
+}
+
+body.dark-mode .value-card p,
+body.dark-mode .member-bio,
+body.dark-mode .testimonial-quote {
+  color: #b0b0b0;
+}
+
+/* Buttons */
+body.dark-mode .primary-button {
+  background-color: #3498db;
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.2);
+}
+
+body.dark-mode .primary-button:hover {
+  background-color: #2980b9;
+  box-shadow: 0 8px 20px rgba(52, 152, 219, 0.3);
+}
+
+body.dark-mode .secondary-button {
+  border-color: #e0e0e0;
+  color: #e0e0e0;
+}
+
+body.dark-mode .secondary-button:hover {
+  background-color: #e0e0e0;
+  color: #121212;
+}
+
+/* Theme toggle */
+body.dark-mode .theme-toggle-btn {
+  color: #ffffff;
+}
+
+/* Footer */
+body.dark-mode .footer {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+  border-top: 1px solid #333;
+}
+
+body.dark-mode .footer a {
+  color: #4dabf7;
+}
+
+body.dark-mode .footer-heading {
+  color: #ffffff;
+}
+
+/* Form elements if applicable */
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+  color: #e0e0e0;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+  color: #888;
+}
+
+/* Additional elements */
+body.dark-mode .card,
+body.dark-mode .info-box {
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+.footer {
+  background-color: #f8f9fa; /* light background */
+  color: #333333; /* dark text for visibility */
+  border-top: 1px solid #e7e7e7;
+}
+
+.footer a {
+  color: #0066cc;
+}
+
+.footer-heading {
+  color: #222222;
+}
+
+
+
+
+body.dark-mode .payment-container {
+  background-color: #1e1e1e;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .payment-container h1 {
+  color: #e0e0e0;
+  border-bottom: 2px solid #333;
+}
+
+/* Booking Summary Styles */
+body.dark-mode .booking-summary {
+  background-color: #282828;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+body.dark-mode .booking-summary h2 {
+  color: #e0e0e0;
+  border-bottom: 1px solid #444;
+}
+
+body.dark-mode .summary-details p {
+  color: #b0b0b0;
+}
+
+body.dark-mode .summary-details p strong {
+  color: #e0e0e0;
+}
+
+body.dark-mode .total-amount {
+  color: #4dabf7 !important;
+  border-top: 1px dashed #444;
+}
+
+/* Payment Form Container Styles */
+body.dark-mode .payment-form-container {
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+body.dark-mode .payment-form-container h2 {
+  color: #e0e0e0;
+  border-bottom: 1px solid #444;
+}
+
+/* Form Group Styles */
+body.dark-mode .payment-form .form-group label {
+  color: #e0e0e0;
+}
+
+body.dark-mode .payment-form .form-group input[type="email"],
+body.dark-mode .payment-form .form-group input[type="text"] {
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+  color: #e0e0e0;
+}
+
+body.dark-mode .payment-form .form-group input::placeholder {
+  color: #888;
+}
+
+body.dark-mode .payment-form .form-group input:focus {
+  border-color: #4dabf7;
+  box-shadow: 0 0 0 2px rgba(77, 171, 247, 0.2);
+}
+
+/* Payment Methods Styles */
+body.dark-mode .payment-method {
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+}
+
+body.dark-mode .payment-method:hover {
+  background-color: #353535;
+}
+
+body.dark-mode .payment-method.selected,
+body.dark-mode .payment-method input:checked + label {
+  background-color: #2c3e50;
+  border-color: #4dabf7;
+}
+
+/* Credit Card Fields Styles */
+body.dark-mode .credit-card-fields {
+  background-color: #282828;
+  border: 1px solid #444;
+}
+
+body.dark-mode .card-security-info {
+  color: #b0b0b0;
+  background-color: #2c3e50;
+}
+
+/* Mobile Payment Styles */
+body.dark-mode .mobile-payment-fields {
+  background-color: #282828;
+  border: 1px solid #444;
+}
+
+body.dark-mode .mobile-payment-info {
+  color: #b0b0b0;
+}
+
+/* Confirmation Box Styles */
+body.dark-mode .confirmation-box {
+  background-color: #282828;
+  border: 1px solid #444;
+}
+
+body.dark-mode .confirmation-info {
+  color: #b0b0b0;
+}
+
+/* Button Styles */
+body.dark-mode .cancel-button, 
+body.dark-mode .back-button {
+  border: 1px solid #444;
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+
+body.dark-mode .cancel-button:hover, 
+body.dark-mode .back-button:hover {
+  background-color: #353535;
+}
+
+body.dark-mode .pay-button, 
+body.dark-mode .confirm-button {
+  background-color: #3498db;
+}
+
+body.dark-mode .pay-button:hover, 
+body.dark-mode .confirm-button:hover {
+  background-color: #2980b9;
+}
+
+body.dark-mode .pay-button:disabled {
+  background-color: #2c3e50;
+}
+
+/* PayPal Modal Styles */
+body.dark-mode .paypal-modal {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .paypal-amount {
+  background-color: #282828;
+  color: #e0e0e0;
+}
+
+body.dark-mode .paypal-cancel {
+  border: 1px solid #444;
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+
+/* Loading and Error States */
+body.dark-mode .loading-container {
+  color: #e0e0e0;
+}
+
+body.dark-mode .loading-spinner {
+  border: 5px solid #333;
+  border-top: 5px solid #4dabf7;
+}
+
+body.dark-mode .error-container {
+  background-color: #2c2121;
+  border-left: 4px solid #b94a48;
+}
+
+body.dark-mode .error-message {
+  color: #e57373;
+  background-color: #2c2121;
+}
+
+/* Success State */
+body.dark-mode .payment-success-container {
+  background-color: #1e2b1e;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  color: #e0e0e0;
+}
+
+body.dark-mode .success-icon {
+  color: #28a745;
+  background-color: #1e3e1e;
+}
